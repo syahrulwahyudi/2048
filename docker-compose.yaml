@@ -1,7 +1,7 @@
 services:
-    simple-apps:
+    2048-apps:
         build: .
-        image: syahrulwahyudi5/simple-apps-image
-        container_name: ct-simple-apps
+        image: syahrulwahyudi5/2048-apps-image
+        container_name: ct-2048-apps
         ports:
-            - "5000:3000"
+            - "8090:80"
